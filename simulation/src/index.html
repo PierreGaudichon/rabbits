@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+
+	<script src="jquery.min.js"></script>
+	<script src="smoothie.js"></script>
+	<script src="app.js"></script>
+
+	<style>
+		html, body {
+			width: 1000px;
+			margin: auto;
+			background: #000;
+			box-sizing: border-box;
+
+		}
+		canvas {
+			margin: 20px;
+			background-color: black;
+			border: 1px solid #7f8c8d;
+
+		}
+
+		.buttons {
+			width: 1000px;
+			margin: 20px;
+		}
+
+		span {
+			display: inline-block;
+			height: 40px;
+			width: 40px;
+			border: 2px solid #7f8c8d;
+			color: white;
+			text-align: center;
+			line-height: 40px;
+			cursor: pointer;
+
+		}
+	</style>
+
+</head>
+<body>
+
+	<div class="buttons">
+		<span id="make-1">1</span>
+		<span id="make-2">2</span>
+		<span id="make-3">3</span>
+		<span id="reset">R</span>
+		<span id="pause">P</span>
+	</div>
+
+	<canvas id="board-canvas"></canvas>
+	<canvas id="bytime-canvas"></canvas>
+	<canvas id="circle-canvas"></canvas>
+
+
+</body>
+</html>
